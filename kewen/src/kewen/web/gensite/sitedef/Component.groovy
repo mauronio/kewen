@@ -1,9 +1,10 @@
 package kewen.web.gensite.sitedef
 
-class Component extends Region {
+class Component extends ExtensibleDefinition {
 	
 	public String id
-
+	public boolean visible
+	
 	public List<Event> reportedEvents
 	public List<Event> listenedEvents
 	
