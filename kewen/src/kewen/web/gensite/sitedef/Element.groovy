@@ -2,7 +2,7 @@ package kewen.web.gensite.sitedef
 
 abstract class Element extends Component {
 
-	String type
+	boolean editable = true
 	
 	Map<String, AttributeValue> attributes
 	

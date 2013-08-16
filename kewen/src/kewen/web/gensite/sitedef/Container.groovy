@@ -2,6 +2,8 @@ package kewen.web.gensite.sitedef
 
 class Container extends Component {
 
+	public boolean framed = false
+	public String frameTitle
 	public List<Component> members
 	
 	@Override

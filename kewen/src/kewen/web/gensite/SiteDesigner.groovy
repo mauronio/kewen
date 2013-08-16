@@ -4,6 +4,6 @@ import kewen.web.gensite.sitedef.Site;
 
 abstract class SiteDesigner {
 
-	abstract Site build()
+	abstract Site design()
 	
 }

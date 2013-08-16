@@ -28,12 +28,17 @@ public class SelectionField extends Element {
 	 * The selected value.
 	 */
 	final static String attributeSELECTEDVALUE = "selectedValue";
+	/*
+	 * Selection Type: C Combo, S Selection list.
+	 */
+	final static String attributeSELECTIONTYPE = "selectionType";
 
     public SelectionField() {
 		registerAttribute(attributeVALUELIST, "Value List")
 		registerAttribute(attributeNULLVALUE, "Value for NULL")
 		registerAttribute(attributeDEFAULTVALUE, "Default Value")
 		registerAttribute(attributeSELECTEDVALUE, "Selected Value")
+		registerAttribute(attributeSELECTIONTYPE, "Selection Type: C Combo, S Selection list")
 		
 	}
 }
